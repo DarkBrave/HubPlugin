@@ -9,7 +9,7 @@ public class BlockPlaceListener implements Listener {
     public void onPlayerJoin(org.bukkit.event.block.BlockPlaceEvent e) {
         Player player = e.getPlayer();
         if (!player.hasPermission("hubplugin.blockplace")) {
-            e.setCancelled(false);
+            e.setCancelled(true);
         }
     }
 }
