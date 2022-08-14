@@ -8,7 +8,7 @@ public class BlockPlaceListener implements Listener {
     @EventHandler
     public void onPlayerJoin(org.bukkit.event.block.BlockPlaceEvent e) {
         Player player = e.getPlayer();
-        if (!player.hasPermission("hubplugin.operator")) {
+        if (!player.hasPermission("hubplugin.blockplace")) {
             e.setCancelled(false);
         }
     }

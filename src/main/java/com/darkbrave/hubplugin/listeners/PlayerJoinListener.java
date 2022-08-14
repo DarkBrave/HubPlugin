@@ -8,7 +8,7 @@ public class PlayerJoinListener implements Listener {
     @EventHandler
     public void onPlayerJoin(org.bukkit.event.player.PlayerJoinEvent e) {
         Player player = e.getPlayer();
-        if (!player.hasPermission("hubplugin.operator")) {
+        if (!player.hasPermission("hubplugin.gamemode")) {
             e.getPlayer().setGameMode(org.bukkit.GameMode.ADVENTURE);
         }
     }
