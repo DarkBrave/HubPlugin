@@ -1,0 +1,7 @@
+name: HubPlugin
+version: '${project.version}'
+main: com.darkbrave.hubplugin.HubPlugin
+api-version: 1.19
+authors: [ DarkBrave ]
+description: Simple plugin for FishCraft Hub.
+website: https://darkbrave.github.io
