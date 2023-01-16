@@ -5,3 +5,9 @@ api-version: 1.19
 authors: [ DarkBrave ]
 description: Simple plugin for FishCraft Hub.
 website: https://darkbrave.github.io
+commands:
+  leave:
+    description: Use this command to leave the server.
+    usage: /<command>
+    aliases:
+      - kickself
